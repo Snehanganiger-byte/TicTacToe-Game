@@ -111,3 +111,65 @@ public class TicTacToe {
         return false;
     }
 }
+===== TIC TAC TOE =====
+Player 1: X
+Player 2: O
+
+   1   2   3
+1    |   |  
+  ---+---+---
+2    |   |  
+  ---+---+---
+3    |   |  
+
+Player X, enter row (1-3): 1
+Enter column (1-3): 1
+
+   1   2   3
+1  X |   |  
+  ---+---+---
+2    |   |  
+  ---+---+---
+3    |   |  
+
+Player O, enter row (1-3): 2
+Enter column (1-3): 1
+
+   1   2   3
+1  X |   |  
+  ---+---+---
+2  O |   |  
+  ---+---+---
+3    |   |  
+
+Player X, enter row (1-3): 1
+Enter column (1-3): 2
+
+   1   2   3
+1  X | X |  
+  ---+---+---
+2  O |   |  
+  ---+---+---
+3    |   |  
+
+Player O, enter row (1-3): 2
+Enter column (1-3): 3
+
+   1   2   3
+1  X | X |  
+  ---+---+---
+2  O |   | O
+  ---+---+---
+3    |   |  
+
+Player X, enter row (1-3): 1
+Enter column (1-3): 3
+
+   1   2   3
+1  X | X | X
+  ---+---+---
+2  O |   | O
+  ---+---+---
+3    |   |  
+
+🎉 Player X WINS!
